@@ -1,0 +1,35 @@
+{
+  "name": "@eduzz/ui-tokens",
+  "description": "Eduzz UI Tokens",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "author": "Eduzz Team",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/eduzz/ui-tokens",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduzz/ui-tokens"
+  },
+  "bugs": {
+    "url": "https://github.com/eduzz/ui-tokens/issues"
+  },
+  "scripts": {
+    "build": "yarn tsc -p tsconfig.json",
+    "lint": "eslint . --ext js,ts,tsx"
+  },
+  "devDependencies": {
+    "@eduzz/eslint-config": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-eslint-plugin": "^5.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6"
+  }
+}

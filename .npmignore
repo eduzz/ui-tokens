@@ -1,0 +1,12 @@
+.vscode
+node_modules
+.eslintignore
+.eslintrc
+.prettierrc
+.prettierrc.js
+tsconfig.json
+/**/**/*.tsx
+/**/**/*.ts
+!/**/**/*.d.ts
+.git
+scripts
