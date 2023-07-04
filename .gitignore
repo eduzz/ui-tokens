@@ -22,3 +22,4 @@ yarn-error.log*
 !definitions.d.ts
 
 !.prettierrc.js
+!scripts/should-release.js
