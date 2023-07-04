@@ -16,7 +16,8 @@ export const font = {
     xl: '2.5rem'
   },
   family: {
-    base: 'Roboto, "Helvetica Neue", Arial, sans-serif'
+    /** Albert Sans is deprecated */
+    base: 'Roboto, Albert Sans, "Helvetica Neue", Arial, sans-serif'
   },
   weight: {
     regular: 400,

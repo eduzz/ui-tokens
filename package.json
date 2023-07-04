@@ -1,7 +1,7 @@
 {
   "name": "@eduzz/ui-tokens",
   "description": "Eduzz UI Tokens",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./index.js",
   "types": "./index.d.ts",
   "author": "Eduzz Team",
