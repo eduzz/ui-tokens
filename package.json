@@ -2,7 +2,10 @@
   "name": "@eduzz/ui-tokens",
   "description": "Eduzz UI Tokens",
   "version": "1.0.0",
-  "keywords": ["eduzz", "tokens"],
+  "keywords": [
+    "eduzz",
+    "tokens"
+  ],
   "main": "./index.js",
   "types": "./index.d.ts",
   "author": "Eduzz Team",
@@ -20,19 +23,21 @@
     "clean": "git add . && git clean -fdx . -e node_modules",
     "prebuild": "yarn clean && yarn lint",
     "build": "yarn tsc -p tsconfig.json",
-    "lint": "eslint . --ext js,ts,tsx"
+    "lint": "eslint . --ext ts,tsx",
+    "update-deps": "yarn ncu -u"
   },
   "devDependencies": {
-    "@eduzz/eslint-config": "^0.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
+    "@eduzz/eslint-config": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-eslint-plugin": "^5.1.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint": "^8.44.0",
-    "prettier": "^2.8.8",
+    "npm-check-updates": "^16.10.15",
+    "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   }
 }
