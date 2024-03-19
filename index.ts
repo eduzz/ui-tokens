@@ -19,7 +19,7 @@ export const EduzzUiTokens = {
   font,
   neutralColor,
   opacity,
-  shadow,
+  shadow
 };
 
 export default EduzzUiTokens;

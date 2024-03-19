@@ -41,4 +41,4 @@ export const base = {
       6: '#ffffff'
     }
   }
-} as const
+} as const;
