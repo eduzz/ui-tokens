@@ -1,3 +1,4 @@
+import { base } from './base';
 import { belt } from './belt';
 import { border } from './border';
 import { brands } from './brand';
@@ -9,6 +10,7 @@ import { opacity } from './opacity';
 import { shadow } from './shadow';
 
 export const EduzzUiTokens = {
+  base,
   border,
   brands,
   belt,
@@ -17,7 +19,7 @@ export const EduzzUiTokens = {
   font,
   neutralColor,
   opacity,
-  shadow
+  shadow,
 };
 
 export default EduzzUiTokens;
