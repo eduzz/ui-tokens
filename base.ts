@@ -1,44 +1,42 @@
 export const base = {
   light: {
-    background: {
-      1: '#bfbfbf',
-      2: '#f0f0f0',
-      3: '#fcfcfc',
-      4: '#ffffff'
+    surface: {
+      subtle: '#fcfcfc',
+      default: '#ffffff',
+      disabled: '#bfbfbf'
     },
     outline: {
-      1: '#e4e4e7',
-      2: '#d9d9d9',
-      3: '#050505'
+      default: '#e4e4e7',
+      disabled: '#d9d9d9',
+      darker: '#050505'
     },
     content: {
-      1: '#a1a1aa',
-      2: '#71717a',
-      3: '#6b7280',
-      4: '#3f3f46',
-      5: '#1f1f1f',
-      6: '#000000'
+      title: '#000000',
+      body: '#3f3f46',
+      subtitle: '#6b7280',
+      caption: '#71717a',
+      negative: '#ffffff',
+      disabled: '#a1a1aa'
     }
   },
   dark: {
-    background: {
-      1: '#a1a1aa',
-      2: '#71717a',
-      3: '#040404',
-      4: '#000000'
+    surface: {
+      subtle: '#1F1F1F',
+      default: '#141414',
+      disabled: '#434343'
     },
     outline: {
-      1: '#71717a',
-      2: '#6b7280',
-      3: '#FDFDFD'
+      default: '#e4e4e7',
+      disabled: '#d9d9d9',
+      darker: '#050505'
     },
     content: {
-      1: '#a1a1aa',
-      2: '#d9d9d9',
-      3: '#bfbfbf',
-      4: '#f0f0f0',
-      5: '#fcfcfc',
-      6: '#ffffff'
+      title: '#FFFFFF',
+      body: '#FAFAFA',
+      subtitle: '#F0F0F0',
+      caption: '#F0F0F0',
+      negative: '#000000',
+      disabled: '#434343'
     }
   }
 } as const;
