@@ -14,7 +14,7 @@ export const base = {
       title: '#000000',
       body: '#3f3f46',
       subtitle: '#6b7280',
-      caption: '#71717a',
+      caption: '#1f1f1f',
       negative: '#ffffff',
       disabled: '#a1a1aa'
     }
@@ -34,7 +34,7 @@ export const base = {
       title: '#FFFFFF',
       body: '#FAFAFA',
       subtitle: '#F0F0F0',
-      caption: '#F0F0F0',
+      caption: '#8C8C8C',
       negative: '#000000',
       disabled: '#434343'
     }
