@@ -26,9 +26,9 @@ export const base = {
       disabled: '#434343'
     },
     outline: {
-      default: '#e4e4e7',
-      disabled: '#d9d9d9',
-      darker: '#050505'
+      default: '#595959',
+      disabled: '#434343',
+      darker: '#D9D9D9'
     },
     content: {
       title: '#FFFFFF',
