@@ -85,13 +85,13 @@ export const brands = {
   },
   safevideo: {
     primary: {
-      pure: '#E39837',
+      pure: '#FFBC00',
       light: '#FEC92D',
       medium: '#F5B431',
       dark: '#804306'
     },
     secondary: {
-      pure: '#E39837',
+      pure: '#FFBC00',
       light: '#FEC92D',
       medium: '#F5B431',
       dark: '#804306'
